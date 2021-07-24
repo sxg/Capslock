@@ -122,26 +122,6 @@
       "description": "Hyper Navigation",
       "manipulators": [
         {
-          "description": "backspace = delete",
-          "type": "basic",
-          "from": {
-            "key_code": "backspace",
-            "modifiers": {
-              "mandatory": [
-                "right_command",
-                "right_control",
-                "right_shift",
-                "right_option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "delete"
-            }
-          ]
-        },
-        {
           "description": "command + h = shift + left",
           "type": "basic",
           "from": {
@@ -4098,26 +4078,6 @@
           "to": [
             {
               "shell_command": "open -a Dictionary"
-            }
-          ]
-        },
-        {
-          "description": "f = Alfred 4",
-          "type": "basic",
-          "from": {
-            "key_code": "f",
-            "modifiers": {
-              "mandatory": [
-                "right_command",
-                "right_control",
-                "right_shift",
-                "right_option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "open -a 'Alfred 4'"
             }
           ]
         },
